@@ -12,9 +12,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-		.package(url: "https://github.com/bizz84/SwiftyStoreKit.git", .upToNextMinor(from: "0.16.4")),
-        .package(url: "https://github.com/evgenyneu/keychain-swift", .upToNextMinor(from: "20.0.0")),
-        .package(url: "https://github.com/ashleymills/Reachability.swift", .upToNextMinor(from: "5.1.0")),
+		.package(url: "https://github.com/RxSwiftCommunity/RxFlow", .upToNextMinor(from: "2.13.0")),
+        .package(url: "https://github.com/AliSoftware/Reusable", .upToNextMinor(from: "4.1.2"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -22,9 +21,8 @@ let package = Package(
         .target(
 			name: "Alert",
 			dependencies: [
-				.product(name: "SwiftyStoreKit", package: "SwiftyStoreKit"),
-                .product(name: "KeychainSwift", package: "keychain-swift"),
-                .product(name: "Reachability", package: "Reachability.swift")
+				.product(name: "RxFlow", package: "RxFlow"),
+                .product(name: "Reusable", package: "Reusable")
 			]
 		)
     ]

@@ -2,30 +2,30 @@
   "object": {
     "pins": [
       {
-        "package": "KeychainSwift",
-        "repositoryURL": "https://github.com/evgenyneu/keychain-swift",
+        "package": "Reusable",
+        "repositoryURL": "https://github.com/AliSoftware/Reusable",
         "state": {
           "branch": null,
-          "revision": "d108a1fa6189e661f91560548ef48651ed8d93b9",
-          "version": "20.0.0"
+          "revision": "18674709421360e210c2ecd4e8e08b217d4ea61d",
+          "version": "4.1.2"
         }
       },
       {
-        "package": "Reachability",
-        "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
+        "package": "RxFlow",
+        "repositoryURL": "https://github.com/RxSwiftCommunity/RxFlow",
         "state": {
           "branch": null,
-          "revision": "c01bbdf2d633cf049ae1ed1a68a2020a8bda32e2",
-          "version": "5.1.0"
+          "revision": "d8d4e53d05239f1ec1bd8bec173907868afa0fa1",
+          "version": "2.13.0"
         }
       },
       {
-        "package": "SwiftyStoreKit",
-        "repositoryURL": "https://github.com/bizz84/SwiftyStoreKit.git",
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
         "state": {
           "branch": null,
-          "revision": "9ce911639680113dac9b554d6243e406a9758ebe",
-          "version": "0.16.4"
+          "revision": "9dcaa4b333db437b0fbfaf453fad29069044a8b4",
+          "version": "6.6.0"
         }
       }
     ]
