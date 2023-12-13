@@ -8,6 +8,7 @@
 
 import Reusable
 import RxSwift
+import UIKit
 
 private func bold(_ size: CGFloat) -> UIFont {
     UIFont(name: "SFProDisplay-Bold", size: size) ?? UIFont.systemFont(ofSize: size, weight: .bold)

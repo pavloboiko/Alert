@@ -10,6 +10,7 @@ import RxFlow
 import RxRelay
 import RxSwift
 import Foundation
+import UIKit
 
 private func hideText(_ text: String?) -> Bool {
     if let text = text {
