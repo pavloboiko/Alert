@@ -52,6 +52,11 @@ open class AlertViewController: UIViewController, StoryboardBased {
     
     private let bag = DisposeBag()
     
+    public static func getStoryboardVC() -> UIViewController {
+        let storyboard = UIStoryboard(name: String(describing: self), bundle: Bundle.module)
+        return storyboard.instantiateInitialViewController()!
+    }
+    
     open override func loadView() {
         super.loadView()
     }
